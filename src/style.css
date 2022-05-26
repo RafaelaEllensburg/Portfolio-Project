@@ -114,3 +114,20 @@ div.bitmoji {
     text-align: center;
   }
 }
+
+.typing-animation {
+  animation: ctype 2s steps(15);
+  overflow: hidden;
+  white-space: nowrap;
+  margin: 0 auto;
+}
+
+@keyframes ctype {
+  0% {
+    width: 0ch;
+  }
+
+  100% {
+    width: 15ch;
+  }
+}
