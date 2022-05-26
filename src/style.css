@@ -6,7 +6,7 @@
 
 body {
   font-family: var(--default-font-family);
-  font-weight: regular;
+  font-weight: 400;
 }
 
 h1,
@@ -16,6 +16,7 @@ p {
 }
 
 .hero h1 {
+  font-size: 64px;
   font-family: var(--heading-font-family);
   padding-top: 20px;
 }
@@ -27,7 +28,8 @@ p {
 
 .hero h2 {
   font-size: 18px;
-  font-weight: bold;
+  font-weight: 700;
+  padding-bottom: 36px;
 }
 
 div.bitmoji {
@@ -41,6 +43,10 @@ div.bitmoji {
   background-size: 500px;
   margin: 0 auto;
   margin-top: 30px;
+}
+
+.contact-button {
+  padding: 36px;
 }
 
 .btn-contact {
