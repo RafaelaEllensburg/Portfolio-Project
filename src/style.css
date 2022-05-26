@@ -68,3 +68,25 @@ div.bitmoji {
   border-radius: 50px;
   padding: 18px 30px;
 }
+
+@media (max-width: 576px) {
+  h1.hero {
+    font-size: 48px;
+    line-height: 1;
+  }
+}
+
+@media (max-width: 576px) {
+  h2,
+  h3,
+  p {
+    text-align: center;
+  }
+}
+
+@media (max-width: 576px) {
+  .btn-branding {
+    display: block;
+    text-align: center;
+  }
+}
