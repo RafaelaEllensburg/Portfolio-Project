@@ -94,6 +94,13 @@ div.bitmoji {
 }
 
 @media (max-width: 576px) {
+  div.bitmoji {
+    width: 280px;
+    height: 280px;
+  }
+}
+
+@media (max-width: 576px) {
   h1.hero {
     font-size: 48px;
     line-height: 1;
@@ -128,6 +135,6 @@ div.bitmoji {
   }
 
   100% {
-    width: 15ch;
+    width: 280px;
   }
 }
