@@ -112,6 +112,19 @@ div.bitmoji {
   margin-top: 30px;
 }
 
+div.bitmoji-aboutme {
+  width: 337px;
+  height: 337px;
+  background: url(/images/the-raf-bitmoji-aboutme.png);
+  box-shadow: inset 0px 0px 10px rgb(0 0 0 / 20%);
+  object-fit: cover;
+  border-radius: 50%;
+  background-position: 50% -35%;
+  background-size: 350px;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
 div.basic-page-img {
   background: url(/images/the-raf-project-basicpage.png);
 }
@@ -149,6 +162,15 @@ div.reveal-card:hover {
   div.bitmoji {
     width: 280px;
     height: 280px;
+  }
+}
+
+@media (max-width: 576px) {
+  div.bitmoji-aboutme {
+    width: 280px;
+    height: 280px;
+    background-position: 50% 0%;
+    background-size: 300px;
   }
 }
 
