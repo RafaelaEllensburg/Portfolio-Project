@@ -111,16 +111,25 @@ div.bitmoji {
   margin-top: 30px;
 }
 
-div.basic-page {
+div.basic-page-img {
   background: url(/images/the-raf-project-basicpage.png);
-  background-size: cover;
-  filter: drop-shadow(0px 0px 21px pink);
 }
 
-div.weather-app {
+div.weather-app-img {
   background: url(/images/the-raf-project-weatherapp.png);
+}
+
+div.see-through-card {
   background-size: cover;
   filter: drop-shadow(0px 0px 21px pink);
+  opacity: 50%;
+  transition: opacity ease-out 1s;
+}
+
+div.reveal-card:hover {
+  opacity: 100%;
+  cursor: none;
+  transition: opacity 2s;
 }
 
 .contact-button {
@@ -145,6 +154,20 @@ div.weather-app {
 @media (max-width: 576px) {
   h1.hero {
     font-size: 48px;
+    line-height: 1;
+  }
+}
+
+@media (max-width: 576px) {
+  h2.project-title {
+    font-size: 30px;
+    line-height: 1;
+  }
+}
+
+@media (max-width: 576px) {
+  h3.project-subtitle {
+    font-size: 14px;
     line-height: 1;
   }
 }
