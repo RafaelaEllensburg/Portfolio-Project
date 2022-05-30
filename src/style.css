@@ -73,8 +73,9 @@ p {
     rgb(249, 57, 170) 9.8%,
     rgb(134, 176, 255) 94.9%
   );
-  -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
 }
 
 .hero h2 {
@@ -180,10 +181,11 @@ div.reveal-card:hover {
 }
 
 .typing-animation {
-  animation: typing 1.5s steps(15, end);
+  animation: typing 2s steps(15, end);
   overflow: hidden;
   white-space: nowrap;
   margin: 0 auto;
+  width: 75%;
 }
 
 @keyframes typing {
