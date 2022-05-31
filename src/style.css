@@ -86,14 +86,14 @@ p {
   color: rgba(68, 0, 119, 0.3);
 }
 
-h2.project-title {
-  font-size: 64px;
+h2.content-title {
+  font-size: 48px;
   font-family: var(--heading-font-family);
   padding-top: 20px;
   font-weight: bold;
 }
 
-h3.project-subtitle {
+h3.content-subtitle {
   font-size: 18px;
   font-family: "Nunito";
   font-weight: bold;
@@ -182,14 +182,14 @@ div.reveal-card:hover {
 }
 
 @media (max-width: 576px) {
-  h2.project-title {
+  h2.content-title {
     font-size: 30px;
     line-height: 1;
   }
 }
 
 @media (max-width: 576px) {
-  h3.project-subtitle {
+  h3.content-subtitle {
     font-size: 14px;
     line-height: 1;
   }
