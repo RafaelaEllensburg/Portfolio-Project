@@ -199,6 +199,23 @@ footer .social-links a:hover {
   transition: opacity 1s;
 }
 
+p.link-github {
+  text-align: center;
+  font-size: small;
+}
+
+p.link-github a {
+  text-decoration: none;
+  background: radial-gradient(
+    circle at 10% 50%,
+    rgb(249, 57, 170) 9.8%,
+    rgb(115, 0, 255) 94.9%
+  );
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
 @media (max-width: 576px) {
   div.window {
     width: 280px;
