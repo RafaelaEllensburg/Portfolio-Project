@@ -170,8 +170,17 @@ div.reveal-card:hover {
   padding: 18px 30px;
 }
 
+.btn-branding-disabled {
+  color: white;
+  background: grey;
+  border: 1px solid #ffffff;
+  border-radius: 50px;
+  padding: 18px 30px;
+}
+
 footer .social-links a {
   margin: 0 20px;
+  margin-top: 50px;
   background: radial-gradient(
     circle at 10% 20%,
     rgb(249, 57, 170) 9.8%,
