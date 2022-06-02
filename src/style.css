@@ -65,7 +65,7 @@ p {
 
 .navbar-brand {
   font-family: "Modak";
-  font-size: 64px;
+  font-size: 50px;
   background: radial-gradient(
     circle at 10% 20%,
     rgb(227, 0, 82) 30%,
@@ -90,7 +90,6 @@ p {
   font-size: 14px;
   padding: 11px;
   justify-content: space-between;
-  margin: 0 auto;
 }
 
 .nav-link {
@@ -120,10 +119,6 @@ p {
   background: rgba(255, 255, 255, 0.5);
   border-radius: 50px;
   height: 100%;
-}
-
-.introduction {
-  width: 93%;
 }
 
 .hero h1 {
@@ -276,13 +271,15 @@ p.link-github a {
 }
 
 @media (max-width: 800px) {
-  .navbar-brand {
+  .navbar-brand,
+  .navbar-links {
     margin: 0 auto;
   }
 }
 
 @media (max-width: 576px) {
-  div.window {
+  div.window,
+  div.bitmoji-aboutme {
     width: 280px;
     height: 280px;
   }
@@ -290,8 +287,6 @@ p.link-github a {
 
 @media (max-width: 576px) {
   div.bitmoji-aboutme {
-    width: 280px;
-    height: 280px;
     background-position: 50% 0%;
     background-size: 300px;
   }
