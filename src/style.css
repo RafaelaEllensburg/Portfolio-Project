@@ -53,8 +53,67 @@ p {
   padding: 20px;
 }
 
-.container.hero {
-  margin-top: 100px;
+.navbar {
+  width: auto;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  margin: 25px auto;
+}
+
+.navbar-brand {
+  font-family: "Modak";
+  font-size: 64px;
+  background: radial-gradient(
+    circle at 10% 20%,
+    rgb(227, 0, 82) 30%,
+    rgb(255, 0, 179) 50%,
+    rgb(108, 99, 255) 80%
+  );
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  opacity: 50%;
+}
+
+.navbar-links {
+  position: relative;
+  background: var(--branding-color);
+  border-radius: 50px;
+  transform: translateX(0px);
+  display: flex;
+  align-items: center;
+  font-family: var(--default-font-family);
+  font-weight: 600;
+  font-size: 14px;
+  padding: 11px;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+.nav-link {
+  color: white;
+  padding: 5px 10px;
+}
+
+.nav-link.active {
+  position: relative;
+  height: 75%;
+  width: fit-content;
+  display: flex;
+  border-radius: 50px;
+  color: var(--branding-color);
+  background: rgb(255, 255, 255);
+  z-index: -1;
+  justify-content: space-between;
+  padding: 10px 10px;
+}
+
+.nav-link:hover,
+.nav-link.active:hover {
+  color: rgb(227, 0, 82);
 }
 
 .white-card {
@@ -214,6 +273,12 @@ p.link-github a {
   background-clip: text;
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
+}
+
+@media (max-width: 800px) {
+  .navbar-brand {
+    margin: 0 auto;
+  }
 }
 
 @media (max-width: 576px) {
