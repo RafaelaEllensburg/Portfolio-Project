@@ -53,6 +53,10 @@ p {
   padding: 20px;
 }
 
+p.hero {
+  font-weight: 300;
+}
+
 .navbar {
   width: auto;
   display: flex;
@@ -296,6 +300,14 @@ p.link-github a {
   h1.hero {
     font-size: 48px;
     line-height: 1;
+  }
+}
+
+@media (max-width: 576px) {
+  .hero p,
+  .content-container p {
+    font-size: 15px;
+    line-height: 2;
   }
 }
 
