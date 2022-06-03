@@ -223,10 +223,6 @@ div.reveal-card:hover {
   transition: opacity 2s;
 }
 
-.contact-button {
-  padding: 20px;
-}
-
 .btn-branding {
   color: white;
   background: var(--branding-color);
