@@ -122,7 +122,14 @@ p.hero {
 .white-card {
   background: rgba(255, 255, 255, 0.5);
   border-radius: 50px;
+}
+
+.text-card {
   height: 100%;
+}
+
+.img-card {
+  padding-top: 60%;
 }
 
 .hero h1 {
@@ -238,7 +245,6 @@ div.reveal-card:hover {
 
 footer .social-links a {
   margin: 0 20px;
-  margin-top: 50px;
   background: radial-gradient(
     circle at 10% 20%,
     rgb(249, 57, 170) 9.8%,
